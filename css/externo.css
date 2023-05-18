@@ -1,0 +1,39 @@
+h1{
+    color: rgb(253, 36, 163);
+}
+h3{
+color: rgb(156, 241, 247);
+}
+
+
+* {
+    color: rgb(139, 139, 68);
+}
+
+li{
+color: blue;
+}
+p {
+size: 30px;
+}
+
+.clase1 {
+    color: black;
+}
+#idtitulogrande {
+color: green;
+font-size: 20px;
+}
+
+a[href]{
+color: pink;
+}
+a[href*=".ec"]{
+color: rgb(179, 83, 99);
+}
+
+label:hover{
+color: aqua;
+background-color: blue;
+font-size: 50px;
+}
