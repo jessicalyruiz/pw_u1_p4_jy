@@ -1,0 +1,15 @@
+input{
+    border: 5px solid rgb(241, 138, 138);
+}
+
+h1{
+    background-color: black;
+    color: rgb(238, 175, 189);
+}
+section{
+    display: grid;
+}
+
+button{
+    border: 5px double paleturquoise;
+}
