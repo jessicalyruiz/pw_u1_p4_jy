@@ -13,3 +13,10 @@ section{
 button{
     border: 5px double paleturquoise;
 }
+
+.teclas li{
+    list-style: none;
+}
+.btncalcu {
+
+}

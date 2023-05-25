@@ -7,41 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../css/calcu.css">
-    <script>
-        function sumar(num1,num2){
-                return num1+num2;
-        }
-
-   
-
-        function restar(num1,num2){
-                return num1-num2;
-        }
-
-        function multiplicar(num1,num2){
-                return num1+num2;
-        }
-
+    <script src="../js/calcu.js">
        
-        function dividir(num1,num2){
-                return num1-num2;
-        }
 
-       function operarNumeros(operacion){
-        var numero1=convertir('n1');
-        var numero2=convertir('n2');
-            switch(operacion){
-                case 'suma':
-
-                        sumar(numero1,numero2);
-                        break;
-            }
-       }
-
-       function convertir(idCampo){
-        return parseInt(document.getElementById(idCampo).value);
-       }
-
+      
     </script>
 
 
@@ -58,9 +27,6 @@
         <label for="n2">numero2</label>
         <input type="number" id="n2">
         
-        <button onclick="document.getElementById('lblresult').style.backgroundColor='red'"> inline js</button>
-        <button onclick="document.getElementById('lblresult').style.color='blue'">js</button>
-
         <div class="teclas">
             <ul>
                 <li>
@@ -90,6 +56,11 @@
                 </li>
             </ul>
         </div>
+
+        <button class="btncalcu" onclick="eliminarElemento('lbleliminar')">Insertar</button>
+        <button class="btncalcu">eliminar</button>
+        <label for="">insetar label</label>
+        <label for="" id="lbleliminar">eliminar</label>
         <label for="" id="lblresult">Resultado:</label>
         <input type="text">
     </section>
