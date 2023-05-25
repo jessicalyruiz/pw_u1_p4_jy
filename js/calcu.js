@@ -34,7 +34,7 @@ function convertir(idCampo){
 
 
    function eliminarElemento(){
-    document.getElementById('lbleliminar').remove;
+    document.getElementById('lbleliminar').remove();
    }
 
    function insertarElemento(){
