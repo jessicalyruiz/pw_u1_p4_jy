@@ -1,0 +1,14 @@
+.numeros li{
+    list-style: none;
+}
+.display{
+    border: 10px solid pink;
+    width: 300px;
+   
+}
+header{
+    text-align: center;
+}
+section{
+    text-align: center;
+}
