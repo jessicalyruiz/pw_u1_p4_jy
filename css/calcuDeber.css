@@ -4,6 +4,8 @@
 .display{
     border: 10px solid pink;
     width: 300px;
+    text-align: center;
+    margin: 0 auto;
    
 }
 header{
@@ -11,4 +13,26 @@ header{
 }
 section{
     text-align: center;
+    
 }
+.numeros {
+    padding: 40px;
+}
+
+.btn{
+    background-color: pink;
+    font-size: 20px;
+    width: 50px;
+}
+
+@font-face {
+    font-family: 'charlinda';
+    src: url('../fonts/charlinda.ttf') format('truetype');
+  }
+
+  h1{
+    font-family: 'charlinda';
+    padding: 50px 0px 10px 0px;
+    font-size: 50px;
+  }
+
