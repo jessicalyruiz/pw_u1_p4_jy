@@ -1,0 +1,77 @@
+@font-face {
+    font-family: "charlinda";
+    src: url(../fonts/charlinda.ttf);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-family: 'charlinda';
+    color: white;
+}
+.formEstudiante{
+
+    display: grid;
+    
+}
+
+.form{
+
+    width: 400px;
+    height: 500px;
+    background:  #e4c1ba ;
+    border-radius: 15px;
+    padding: 20px 30px;
+    box-shadow: 10px 10px 20px 5px #6a5f59;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background-color:#e09a8c ;
+
+}
+h2{
+    margin: 10px 0px;
+    padding-bottom: 10px;
+    color: #684a44;
+    border-bottom: solid 3px #684a44 ;
+}
+
+p:before{
+    content: attr(type);
+    display: block;
+    margin: 10px 2px;
+    font-size: 14px;
+    color: #684a44;
+}
+input{
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid #998683;
+    background: none;
+}
+select{
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid #998683;
+    background: none;
+}
+::placeholder{
+    color: #6a5f59;
+}
+input:focus{
+    border-bottom: 2px solid pink;
+    outline: none;
+}
+button{
+    margin-top: 10px;
+    background-color: #e09a8c;
+    border-radius: 20px;
+    padding: 10px 20px;
+    box-shadow: 2px 2px 10px 5px #684a44;
+}
+select:focus{
+    background-color: #e09a8c;
+}
